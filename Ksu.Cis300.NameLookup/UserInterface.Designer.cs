@@ -48,6 +48,7 @@
             this.uxOpen.TabIndex = 47;
             this.uxOpen.Text = "Open Data File";
             this.uxOpen.UseVisualStyleBackColor = true;
+            this.uxOpen.Click += new System.EventHandler(this.uxOpen_Click);
             // 
             // uxRank
             // 
@@ -98,6 +99,7 @@
             this.uxLookup.TabIndex = 42;
             this.uxLookup.Text = "Get Statistics";
             this.uxLookup.UseVisualStyleBackColor = true;
+            this.uxLookup.Click += new System.EventHandler(this.uxLookup_Click);
             // 
             // uxName
             // 
